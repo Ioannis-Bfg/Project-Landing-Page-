@@ -13,7 +13,7 @@ body {
     justify-content: space-between;
     align-items: center;
     color: #f9faf8;
-    padding:0px 10%;
+    padding:1% 10%;
 }
 
 .header-right {
@@ -22,7 +22,7 @@ body {
 }
 
 .header-left {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -31,7 +31,74 @@ a {
     color: #c1c2c4;
 }
 
+/* //////////////////////////////////////////////////// */
+
 .intro {
     background-color: #1f2937;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1% 10%;
+    gap:180px;
+}
+
+h1,p{
+    padding: 0%;
+    margin: 0;
+}
+
+.intro-button {
+    padding:10px 40px;
+    align-self: flex-start;
+    background-color: #3882F6;
+    color: white;
+    border:none;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 6px;
+}
+.intro-right {
+    background-color: gray;
+    min-width: 500px;
+    min-height: 250px;
+}
+
+.intro-header{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.intro-left {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    color: #a7a9ac;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:8px;
+}
+
+/* //////////////////////////////////////////////////// */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    border:10px solid;
+    min-width: 40px;
+    min-height: 40px;
 }
