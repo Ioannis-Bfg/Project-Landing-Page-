@@ -1,0 +1,1 @@
+Hello , this is going to be my attempt at making a landing page with some screenshots as reference.
