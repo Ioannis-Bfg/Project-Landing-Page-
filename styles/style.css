@@ -13,13 +13,16 @@ body {
 
 
 .header {
-    min-height: 20%;
+    min-height: 3%;
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #f9faf8;
     padding:1% 15%;
+    position: fixed;
+    width: 100%;
+    top:0;
 }
 
 .header-right {
